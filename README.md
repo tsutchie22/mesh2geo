@@ -3,7 +3,10 @@
 ※分割数を1に設定すれば、緯度経度への変換
 
 ##使い方
-`puthon mesh2geo mesh_code number file_name`
-*mesh_code：3次メッシュコード
-*number：分割数
-*file_name：出力ファイル名
+`python mesh2geo mesh_code number file_name`
+
+* mesh_code：3次メッシュコード
+
+* number：分割数
+
+* file_name：出力ファイル名
