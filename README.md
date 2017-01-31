@@ -1,9 +1,10 @@
 #mesh2geo
 3次メッシュを分割し、それぞれのメッシュの南端緯度および西端経度をcsvで出力
+
 ※分割数を1に設定すれば、緯度経度への変換
 
 ##使い方
-`python mesh2geo mesh_code number file_name`
+`python mesh2geo.py mesh_code number file_name`
 
 * mesh_code：3次メッシュコード
 
