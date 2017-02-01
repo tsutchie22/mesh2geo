@@ -34,6 +34,7 @@ def write_csv(geos, file_name):
         writer = csv.writer(f, lineterminator='\n')
         writer.writerows(geos)
 
+
 def m2g(code, num, file_name):
     """
     メッシュを分割し，南端緯度および西端経度のリストをリターン
@@ -57,6 +58,7 @@ def m2g(code, num, file_name):
             geos.append(geo)
                 
     write_csv(geos, file_name)
+
 
 if __name__ == '__main__':
     argv = sys.argv
